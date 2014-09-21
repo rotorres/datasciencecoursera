@@ -37,7 +37,7 @@ newFeat<-rbind(featDF[msMean,],featDF[msStd,])
 
 newMG<-mgDF[newFeat$V1]
 
-write.table(newMG, "X:\\_MyBox\\OneDrive\\_DEV\\R\\Coursera\\3-Getting and Cleaning Data\\Assignment\\AssignmentDataCleansing.txt")
+write.table(newMG, "X:\\_MyBox\\OneDrive\\Documents\\GitHub\\datasciencecoursera\\Getting and Cleaning Data\\Assignment\\AssignmentDataCleansing.txt", row.name=FALSE)
 
 
 
